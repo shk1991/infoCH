@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>infoCH 官网</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/page/base.css">
+    <link rel="stylesheet" href="css/page/public.css">
+    <link rel="stylesheet" href="css/page/about-us.css">
+</head>
+<body>
+
+<!-- header -->
+<!--#include file="head.html"-->
+
+<section class="infoCH-box min-width product-epds about-us">
+
+    <div class="infoCH-layout">
+        <div class="bg-wrapper">
+            <div class="animation-body">
+                <img src="images/infoCH-contact_01.png" width="100%">
+            </div>
+        </div>
+        <img src="images/abouts_us_title.png" class="animation_img">
+    </div>
+
+    <div class="contact-info clr">
+        <ul class="flex">
+            <li class="flex-child">
+                <i><img src="images/icob_bg11.png" width="100%" /></i>
+                <h3>电话</h3>
+                <p>010–84799769</p>
+            </li>
+            <li class="flex-child">
+                <i><img src="images/icob_bg12.png" width="100%" /></i>
+                <h3>邮箱</h3>
+                <p>business@infoch.cn</p>
+            </li>
+            <li class="flex-child">
+                <i><img src="images/icob_bg13.png" width="100%" /></i>
+                <h3>地址</h3>
+                <p>北京市朝阳区将台路5号院5号楼</p>
+            </li>
+        </ul>
+
+        <div class="contact-text">
+            <h3>关于我们：</h3>
+            <p>云枢始于2015年，伴随着中国云计算产业的蓬勃发展，北京云枢网络科技有限公司诞生了。</p>
+            <p>我们希望用技术提供核心价值，致力于彻底改变中国云计算服务中的网络质量，让每一个公司、每一个业务都能够更加专注于自己的业务，让云计算更便捷、更高效、更简单。「让互联网业务更加纯粹」是我们的宗旨。</p>
+            <p>如今，通过可靠可信赖的网络服务，云枢将帮助国内数万多家企业客户解决云计算业务难题，涉及游戏、电商、O2O、教育、社交、旅游、直播、医疗等众多领域，覆盖网络异常流量清洗业务、负载均衡业务、CDN业务、私有DNS业务等。</p>
+            <p>云枢网络正在为中国提供一种焕然一新的网络云服务，不仅极大地帮助企业优化了平台和客户之间的网络通信能力，还广泛应用云计算网络能力的按量计费的方式，极大地节省了企业的成本。</p>
+            <p>我们以国内顶尖的云计算技术能力，来帮助企业应对在基础网络环节可能面临的一切问题。</p>
+        </div>
+
+    </div>
+
+    <div class="box login-con clr">
+        <div class="title-info">
+            <h2>现在开始infoCH之旅</h2>
+        </div>
+        <div class="con-info">
+            <div class="login-box">
+                <a href="" class="login-submit">登录</a>
+                <div class="login-input">
+                    <p class="input-email"><input  type="email" placeholder="输入邮箱地址"></p>
+                    <p class="input-password"><input type="password" placeholder="输入密码"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--footer-->
+<!--#include file="foot.html"-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/public.js"></script>
+</body>
+</html>

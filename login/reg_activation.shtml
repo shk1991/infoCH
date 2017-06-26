@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>infoCH 官网</title>
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/page/base.css">
+    <link rel="stylesheet" href="../css/page/public.css">
+    <link rel="stylesheet" href="../css/page/login.css">
+</head>
+<body>
+
+<section class="infoCH-box login-page min-width">
+    <!--<div class="login-bg">-->
+        <!--<img src="../images/infoCH_login_02.jpg" width="100%">-->
+        <!--<img src="../images/infoCH_login_03.jpg" width="100%">-->
+    <!--</div>-->
+    <div class="bg-wrapper">
+        <div class="animation-body">
+
+        </div>
+    </div>
+    <div class="login-body">
+        <img src="../images/infoCH_login_01.png" >
+        <div class="login-form">
+            <div class="infoCH-code">
+                <h4>微信关注 infoCH</h4>
+                <img src="../images/infoCH_code.png" >
+            </div>
+            <div class="line"></div>
+
+            <!--注册成功-->
+            <div id="reg-success">
+                <h3>邮箱注册成功！</h3>
+                <p>infoch将发送一封验证邮件到你的邮箱，此邮箱将作为登录用户名,<a href="" >点击查收邮件</a></p> <!--onclick="showType('login')"-->
+            </div>
+
+        </div>
+        <p style=" color: #65646a; text-align: center; margin-top: 0.3rem;">@北京云枢网络科技有限公司 京备A-123456667 拷贝</p>
+    </div>
+</section>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/public.js"></script>
+</body>
+</html>

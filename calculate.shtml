@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>infoCH 官网</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.range.css">
+    <link rel="stylesheet" href="css/page/base.css">
+    <link rel="stylesheet" href="css/page/public.css">
+    <link rel="stylesheet" href="css/page/calculate.css">
+</head>
+<body>
+
+<!-- header -->
+<!--#include file="head.html"-->
+
+<section class="min-width">
+
+    <div class="top-img"></div>
+
+    <div class="calc-box clr">
+        <div class="calc-result">
+            <dl>
+                <dt>前置计费项</dt>
+                <dd>
+                    <ul class="calc-list">
+                        <li>
+                            <span>地域：</span>
+                            <p>美东 1</p>
+                        </li>
+                        <li>
+                            <span>配置：</span>
+                            <p>计费方式(按使用流量计费)实例类型(公网)</p>
+                        </li>
+                        <li>
+                            <span>计费周期：</span>
+                            <p>立即结算</p>
+                        </li>
+                        <li>
+                            <span>IP 费用：</span>
+                            <p>1000.00元</p>
+                        </li>
+                        <li>
+                            <span>OpenLB：</span>
+                            <p>139.00元</p>
+                        </li>
+                        <li>
+                            <span>业务宽带：</span>
+                            <p>20.00元</p>
+                        </li>
+                        <li>
+                            <span>小计：</span>
+                            <p><em class="blue">51083.96</em> 元</p>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>按量计费项</dt>
+                <dd>
+                    <ul class="calc-list">
+                        <li>
+                            <span>地域：</span>
+                            <p>美东 1</p>
+                        </li>
+                        <li>
+                            <span>计费周期：</span>
+                            <p>立即结算</p>
+                        </li>
+                        <li>
+                            <span>IP 费用：</span>
+                            <p>1000.00元</p>
+                        </li>
+                        <li>
+                            <span>OpenLB：</span>
+                            <p>139.00元</p>
+                        </li>
+                        <li>
+                            <span>业务宽带：</span>
+                            <p>20.00元</p>
+                        </li>
+                        <li>
+                            <span>小计：</span>
+                            <p><em class="blue">51083.96</em> 元</p>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+            <ul class="calc-list actual-result">
+                <li>
+                    <span>原价：</span>
+                    <p> 800000.00  元</p>
+                </li>
+                <li>
+                    <span>优惠：</span>
+                    <p><em class="red">-30000.00</em>  元</p>
+                </li>
+                <li>
+                    <span>小计：</span>
+                    <p><em class="blue">591083.96</em> 元</p>
+                </li>
+            </ul>
+            <div class="btn-style">
+                <a href="">重置</a>
+                <a href="" class="blue">去购买</a>
+            </div>
+        </div>
+        <div class="calc-con">
+            <div class="product-title">
+                <h3 id="calc-product-name">智能流量管理</h3>
+                <!--<div>-->
+                    <!--<span>切换产品<i class="fa fa-caret-down" aria-hidden="true"></i> </span>-->
+                    <!--<ul class="product-list">-->
+                        <!--<li>开放式负载均衡</li>-->
+                        <!--<li>智能流量管理系统</li>-->
+                        <!--<li>专属私有域名服务</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+                <a href="product-itm.shtml">产品详情 ></a>
+            </div>
+            <div class="calc-select clr">
+                <div class="result-val">
+                    <span>价格计算器</span>
+                    <!-- <p><em>51083.96</em> &nbsp;&nbsp;元</p> -->
+                    <p id="price"><em class="f22">正在计算价格...</em></p>
+                </div>
+                <div class="btn-style">
+                    <a href="" class="reset">重置</a>
+                    <a href="" class="blue">去购买</a>
+                </div>
+            </div>
+            <div class="select-con">
+                <!-- <dl class="select-list clr">
+                    <dt>所属项目：</dt>
+                    <dd>
+                        <div class="choose-item-type">
+                            <span class="disabled"><em id="js-item-type">默认项目组</em><i class="fa fa-caret-down"></i></span>
+                            <ul class="item-list hide">
+                                <li class="active">默认项目组</li>
+                                <li>项目1</li>
+                                <li>项目2</li>
+                            </ul>
+                        </div>
+                    </dd>
+                </dl> -->
+                <dl class="select-list clr">
+                    <dt>地域：</dt>
+                    <dd>
+                        <ul class="choose-list-style choose-area-type clr" id="js-area-type">
+                            <li class="active">浙江电信</li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="select-list clr">
+                    <dt class="jf-info-icon">
+                        计费方式<i ></i>：
+                        <p class="jf-info">购买基础带宽越多，弹性部分单价越低</p>
+                    </dt>
+                    <dd>
+                        <ul class="choose-list-style choose-charge-type clr" id="js-charge-type">
+                            <li class="active">基础带宽+弹性资源按量付费<i class="mark-cion recommend-icon"><em>荐</em></i></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="select-list clr">
+                    <dt>基础带宽：</dt>
+                    <dd>
+                        <div class="jrange-box">
+                            <div class="jrange-select" id="js-min-val">
+                                <em><input type="text" value="20"></em>&nbsp;&nbsp;Gbps
+                                <span class="select-btn" data-type="min" data-val="0">
+                                    <i class="fa fa-caret-up down disabled"></i>
+                                    <i class="fa fa-caret-down up"></i>
+                                </span>
+                            </div>
+                            <div class="jrange-style">
+                                <input class="jrange-slider" id="min-val-slider" type="hidden" value="0.0"/>
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="select-list clr">
+                    <dt>弹性资源峰值：</dt>
+                    <dd>
+                        <div class="jrange-box">
+                            <div class="jrange-select" id="js-max-val">
+                                <em><input type="text" value="20"></em>&nbsp;&nbsp;Gbps
+                                <span class="select-btn" data-type="max" data-val="0">
+                                    <i class="fa fa-caret-up down"></i>
+                                    <i class="fa fa-caret-down up"></i>
+                                </span>
+                            </div>
+                            <div class="jrange-style">
+                                <input class="jrange-slider" id="max-val-slider" type="hidden" value="0.0"/>
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="select-list clr">
+                    <dt>弹性资源单价：</dt>
+                    <dd>
+                        XX元/Gbps/天<a href="" style="margin-left:10px; color: #4394ff;font-size: 12px;">查看价格详情</a>
+                    </dd>
+                </dl>
+                <dl class="select-list clr">
+                    <dt>业务用量：</dt>
+                    <dd>
+                        <ul class="choose-list-style choose-usage-type clr" id="js-usage-type">
+                            <li class="active">按带宽</li>
+                            <!--<li>按流量</li>-->
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="select-list clr">
+                    <dt>业务出带宽：</dt>
+                    <dd>
+                        <div class="jrange-box">
+                            <div class="jrange-select" id="js-work-val">
+                                <em><input type="text" value="100"></em>&nbsp;&nbsp;Mbps
+                                <span class="select-btn" data-type="work" data-val="0">
+                                    <i class="fa fa-caret-up down"></i>
+                                    <i class="fa fa-caret-down up"></i>
+                                </span>
+                            </div>
+                            <div class="jrange-style">
+                                <input class="jrange-slider" id="work-val-slider" type="hidden" value="0.0"/>
+                            </div>
+                    </dd>
+                </dl>
+                <dl class="select-list clr">
+                    <dt>购买时长：</dt>
+                    <dd>
+                        <ul class="choose-list-style choose-duration-type clr" id="js-duration-type">
+                            <li class="active">1个月</li>
+                            <li>2个月</li>
+                            <li>3个月</li>
+                            <li>4个月</li>
+                            <li>5个月</li>
+                            <li>6个月</li>
+                            <li>7个月</li>
+                            <li>8个月</li>
+                            <li>9个月</li>
+                            <li>10个月</li>
+                            <li>11个月</li>
+                            <li>12个月<i class="mark-cion welfare-icon"><em>惠</em></i></li>
+                            <li>24个月<i class="mark-cion welfare-icon"><em>惠</em></i></li>
+                            <li>36个月<i class="mark-cion welfare-icon"><em>惠</em></i></li>
+                            <li>48个月<i class="mark-cion welfare-icon"><em>惠</em></i></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="box login-con clr">
+        <div class="title-info">
+            <h2>现在开始infoCH之旅</h2>
+        </div>
+        <div class="con-info">
+            <div class="login-box">
+                <a href="" class="login-submit">登录</a>
+                <div class="login-input">
+                    <p class="input-email"><input  type="email" placeholder="输入邮箱地址"></p>
+                    <p class="input-password"><input type="password" placeholder="输入密码"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--footer-->
+<!--#include file="foot.html"-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/jquery.range.js"></script>
+<script src="js/page/calculate.js"></script>
+</body>
+</html>

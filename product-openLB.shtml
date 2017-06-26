@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>infoCH 官网</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/page/base.css">
+    <link rel="stylesheet" href="css/page/public.css">
+    <link rel="stylesheet" href="css/page/product.css">
+</head>
+<body>
+
+<!-- header -->
+<!--#include file="head.html"-->
+
+<section class="infoCH-box min-width product-epds product-itm product-openLB">
+    <div class="infoCH-layout">
+        <div class="bg-wrapper">
+            <div class="animation-body">
+                <img src="images/infoCH-OpenLB_01.png" width="100%">
+            </div>
+        </div>
+        <img src="images/product-openLB_title.png" class="animation_img move-title">
+        <div class="link-target">
+            <a href="javascript:;" class="move-title">敬请期待</a>
+        </div>
+    </div>
+
+    <div class="box box1">
+        <div class="title-info">
+            <h2>我们前所未有的透明</h2>
+            <p>支持完全透明网络数据传输，与服务器地理位置无关， 兼容所有厂商和数据中心设备，数据统计零干扰</p>
+        </div>
+        <div class="con-info">
+            <div class="product-show">
+                <img src="images/infoCH-OpenLB_04.png" style=" width: 100%" >
+                <ul class="product-show-text-itm">
+                    <li class="mid-center">AWS<br />GoogleCloud<br />Azure </li>
+                    <li class="mid-center">阿里云<br />腾讯云<br />百度云</li>
+                    <li class="mid-center">青云<br />UnitedStack<br />Ucloud </li>
+                    <li class="mid-center"> 其他服务器</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box2">
+        <div class="title-info">
+            <h2>致力于提供更精良的云计算产品方案</h2>
+            <p>Global Traffic Management 统一流量管理平台。</p>
+            <p>GTM是云枢云平台的网络核心，通过对网络流量的智能管控，让业务更快速、更可靠、更安全、更易用。</p>
+        </div>
+        <div class="con-info">
+            <img src="images/infoCH-EPDS_04.png" style=" width: 51.1%; margin:30px auto 0;" >
+            <ul class="product-choose-show flex">
+                <li class="flex-child">
+                    <i></i>
+                    <h3 class="product-info-ft">高可用性</h3>
+                    <p class="product-info-text">在任何云服务或数据中心之间分配传入流量。OpenLB会根据应用程序传入流量自动扩展其请求处理容量</p>
+                </li>
+                <li class="flex-child">
+                    <i></i>
+                    <h3 class="product-info-ft">弹性管理</h3>
+                    <p class="product-info-text">轻松在控制台实现OpenLB的扩容和配置，支持多种计费模式</p>
+                </li>
+                <li class="flex-child">
+                    <i></i>
+                    <h3 class="product-info-ft">运行监控</h3>
+                    <p class="product-info-text">数据报表让您更了解自己的流量特性，更方便对业务进行优化</p>
+                </li>
+                <li class="flex-child">
+                    <i></i>
+                    <h3 class="product-info-ft">业务监控</h3>
+                    <p class="product-info-text">实时检测业务机器的运行状况。一旦检测到运行不良的服务器，将负载分布到其他运行良好的机器上</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="box box3 clr">
+        <img src="images/infoCH-OpenLB_09.jpg" style=" width:50%; float: left;" >
+        <div class="title-info mid">
+            <div>
+                <h2>如果您拥有这样的业务？</h2>
+                <ul>
+                    <li>使用多家云服务厂商的业务</li>
+                    <li>有多地灾备需求或跨服务商的产品</li>
+                    <li>高访问量业务</li>
+                    <li>有单点灾备需求的业务</li>
+                    <li>有横向扩展需求的业务</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box4 clr">
+        <div class="title-info">
+            <h2>ITM提供更人性化的服务</h2>
+        </div>
+        <div class="con-info">
+            <ul class="product-show04 flex">
+                <li class="flex-child">
+                    <i><img src="images/icon_bg_07.png" width="100%" /></i>
+                    <h3 class="product-info-ft">快速配置</h3>
+                    <p class="product-info-text">多组第三方平台实例数据一次性导入，快速简历第三方实例管理库，同步网络流量分配策略</p>
+                </li>
+                <li class="flex-child">
+                    <i><img src="images/icon_bg_06.png" width="100%" /></i>
+                    <h3 class="product-info-ft">实时数据报表</h3>
+                    <p class="product-info-text">运行监控数据可视化，更了解子的流量特性，方便根据流量对业务进行优化，及时对云服务策略优化配置</p>
+                </li>
+                <li class="flex-child">
+                    <i><img src="images/icon_bg_08.png" width="100%" /></i>
+                    <h3 class="product-info-ft">多纬度计算</h3>
+                    <p class="product-info-text">多重纬度计算，最大程度的让企业节省计算成本，优化云资产</p>
+                </li>
+                <li class="flex-child">
+                    <i><img src="images/icon_bg_09.png" width="100%" /></i>
+                    <h3 class="product-info-ft">报警管理</h3>
+                    <p class="product-info-text">自定义报警策略，多平台通知，及时知晓业务运行状况</p>
+                </li>
+            </ul>
+            <!-- <div class="product-show04 flex" style="margin-top: 0;">
+                <a href=""  class="flex-child">查看详情</a>
+                <a href=""  class="flex-child">查看详情</a>
+                <a href=""  class="flex-child">查看详情</a>
+                <a href=""  class="flex-child">查看详情</a>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="box login-con clr">
+        <div class="title-info">
+            <h2>现在开始infoCH之旅</h2>
+        </div>
+        <div class="con-info">
+            <div class="login-box">
+                <a href="" class="login-submit">登录</a>
+                <div class="login-input">
+                    <p class="input-email"><input  type="email" placeholder="输入邮箱地址"></p>
+                    <p class="input-password"><input type="password" placeholder="输入密码"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--footer-->
+<!--#include file="foot.html"-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/public.js"></script>
+</body>
+</html>

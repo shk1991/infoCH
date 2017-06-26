@@ -1,0 +1,218 @@
+
+.help{
+    margin: 0 auto;
+    max-width: 2000px;
+}
+.help .infoCH-layout{
+    min-height: 300px;
+}
+.serch-box{
+    width: 780px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -390px;
+    z-index: 999;
+}
+.serch-box .input-style{
+    height: 55px;
+    line-height: 55px;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 30px;
+    padding: 0 25px;
+}
+.serch-box .input-style .serch-btn{
+    width: 50px;
+    height: 100%;
+    background: url("../../images/serch-icon.png") no-repeat center center;
+    float: right;
+    cursor: pointer;
+}
+.serch-box .input-style p{
+    line-height: inherit;
+    overflow: hidden;
+}
+.serch-box .input-style input{
+    line-height: inherit;
+    background-color: transparent;
+    font-size: 20px;
+    float: left;
+    color: #fff;
+    width: 100%;
+}
+.serch-box .input-style input::-webkit-input-placeholder{
+    color: #aba4a4;
+}
+.hot-serch{
+    font-size: 12px;
+    padding:15px 10px;
+}
+.hot-serch dt,.hot-serch dd{
+    display: inline-block;
+}
+.hot-serch dt{
+    color: #9e9fab;
+}
+.hot-serch dd a{
+    color: #b7b8c0;
+    margin-left: 20px;
+}
+
+.help-con{
+    width: 1181px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+.help-con .grey{ color: #999;}
+.help-con .blank{ color: #000;}
+.help-con .blue{ color: #4394ff;}
+.help-con .help-menu{
+    float: left;
+    width: 180px;
+    margin-right: 35px;
+}
+.help-con .help-recommend{
+    float: right;
+    width: 220px;
+    border-left: 1px solid #e5e5e5;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.help-recommend h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.help-con .help-recommend a{ color: #999; display: block; line-height: 2;}
+.help-con .help-recommend a:hover{ text-decoration: underline;}
+.help-con .help-info{
+    overflow: hidden;
+    color: #41454c;
+    font-size: 13px;
+    line-height: 2;
+    padding-right: 35px;
+}
+.help-con .help-info .nav-info{ color: #000;}
+.help-con .help-info h4,.help-con .help-info h5,.help-con .help-info h6{ margin-top: 25px;}
+.help-con .help-info p:not(.nav-info),.help-con .help-info img{ margin-top: 10px;}
+.help-con .help-info h4{
+    font-size: 16px;
+}
+.help-con .help-info h5{
+    font-size: 15px;
+}
+.help-con .help-info h6{
+    font-size: 13px;
+}
+
+.help-menu-list a{ display: block;}
+.help-menu-list > li{ position: relative; line-height: 25px; padding-left: 30px; margin-bottom: 20px;}
+.help-menu-list > li::before{
+    content:"";
+    width: 24px;
+    height: 25px;
+    display: block;
+    background: url("../../images/icon_01.png") no-repeat 0 center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.help-menu-list > li.wendang::before{
+    background: url("../../images/icon_01.png") no-repeat 0 center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.wendang.active::before{
+    background: url("../../images/icon_01.png") no-repeat -240px center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.zhinan::before{
+    background: url("../../images/icon_01.png") no-repeat -24px center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.jiekou::before{
+    background: url("../../images/icon_01.png") no-repeat -48px center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.question::before{
+    background: url("../../images/icon_01.png") no-repeat -72px center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.question1::before{
+    background: url("../../images/icon_01.png") no-repeat -96px center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.question1.active::before{
+    background: url("../../images/icon_01.png") no-repeat -216px center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.question2::before{
+    background: url("../../images/icon_01.png") no-repeat -120px center;
+    background-size: auto 80%;
+}
+
+.help-menu-list > li.serch-all::before{
+    background: url("../../images/icon_01.png") no-repeat -192px center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.serch-all.active::before{
+    background: url("../../images/icon_01.png") no-repeat -168px center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.serch-wd::before{
+    background: url("../../images/icon_01.png") no-repeat -168px center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.serch-problem::before{
+    background: url("../../images/icon_01.png") no-repeat -192px center;
+    background-size: auto 80%;
+}
+.help-menu-list > li.active a{
+    color: #4394ff;
+}
+
+.help-menu-list > li > a{
+    font-size: 14px;
+    position: relative;
+    font-weight: bold;
+}
+.help-menu-list > li > a.select::after{
+    content: "";
+    width: 14px;
+    height: 12px;
+    background: url("../../images/icon_01.png") no-repeat -350px center;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+.help-menu-list > li > a.active::after{
+    background-position: -330px center;
+}
+.menu-list{ margin-top: 10px; display: none;}
+.menu-list > a{ font-size: 13px; color: #41454c; line-height: 2; white-space: nowrap; overflow: hidden;text-overflow:ellipsis;}
+.menu-list > a.active{
+    color: #4394ff;
+}
+
+.select-list{ width: 49%; margin: 15px auto 0; background-color: rgba(255,255,255,.08); padding: 10px 35px; border-radius: 30px;}
+.select-list li{ width: 33.3%; float: left; position: relative; padding-left: 35px; box-sizing: border-box; text-align: left; color: #fff;}
+.select-list li i{ width: 25px; position: absolute; top: 0; left: 0;}
+.help-con .help-info .help-serch-list{ margin-top: 15px;}
+.help-con .help-info .help-serch-list p{ margin-top: 0px;}
+
+.page-info{
+    margin-top: 25px;
+}
+.page-info a{ display: inline-block; padding:  10px 13px; border: 1px solid #ddd; font-size: 14px; line-height: 1; margin-left: 3px; box-sizing: border-box; border-radius: 3px;}
+.page-info a.cur{ background-color: #4394ff; color: #fff;}
+.page-info span{ margin: 0 10px;}
+
+.help .bg-wrapper{
+    padding-top:25%;
+}
+.help .animation_img{
+    width: 15%;
+    margin-left: -7.5%;
+    top: 35%;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>infoCH 官网</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/page/base.css">
+    <link rel="stylesheet" href="css/page/public.css">
+    <link rel="stylesheet" href="css/page/help.css">
+</head>
+<body>
+
+<!-- header -->
+<!--#include file="head.html"-->
+
+<section class="min-width help">
+    <div class="infoCH-layout">
+
+        <div class="bg-wrapper">
+            <div class="animation-body">
+                <img src="images/infoCH-help_01.png" width="100%">
+            </div>
+            <img src="images/help_title.png" class="animation_img">
+        </div>
+
+        <div class="serch-box">
+            <div class="input-style">
+                <span class="serch-btn" id="serch-btn"></span>
+                <p class="clr"><input type="text" placeholder="输入想要答案的关键词" /></p>
+            </div>
+            <dl class="hot-serch">
+                <dt>热门搜索词：</dt>
+                <dd>
+                    <a href="">远程连接服务器</a>
+                    <a href="">挂载数据盘</a>
+                    <a href="">域名解析</a>
+                    <a href="">域名实名认证</a>
+                    <a href="">账号实名认证</a>
+                    <a href="">忘记密码</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="help-con clr">
+       <div class="help-menu">
+           <ul class="help-menu-list">
+               <li class="wendang">
+                   <a href="javascript:;" class="select active">产品文档</a>
+                   <div class="menu-list" style=" display: block;">
+                       <a href="" class="active">开放式负载均衡</a>
+                       <a href="">智能流量管理系统</a>
+                       <a href="">专属私有域名服务</a>
+                       <a href="">域名服务</a>
+                   </div>
+               </li>
+               <li class="zhinan">
+                   <a href="javascript:;" class="select">用户指南</a>
+                   <div class="menu-list">
+                       <a href="">域名实名认证问题</a>
+                       <a href="">域名转入</a>
+                       <a href="">域名已被注册怎么办</a>
+                       <a href="">出现域名争议</a>
+                       <a href="">域名注册成功退款吗</a>
+                   </div>
+               </li>
+               <li class="jiekou">
+                   <a href="javascript:;" class="select">接口文档</a>
+                   <div class="menu-list">
+                       <a href="">域名注册</a>
+                       <a href="">域名介绍</a>
+                       <a href="">域名价格</a>
+                       <a href="">注册域名</a>
+                       <a href="">域名续费</a>
+                       <a href="">域名管理</a>
+                       <a href="">域名实名认证</a>
+                       <a href="">域名转入</a>
+                       <a href="">域名保护</a>
+                       <a href="">域名续费</a>
+                       <a href="">修改域名信息</a>
+                   </div>
+               </li>
+               <li class="question">
+                   <a href="javascript:;">其他问题</a>
+               </li>
+               <li class="question1">
+                   <a href="javascript:;">问题1</a>
+               </li>
+               <li class="question2">
+                   <a href="javascript:;">问题2</a>
+               </li>
+           </ul>
+       </div>
+        <div class="help-recommend">
+            <h4>本章节主要问题</h4>
+            <a href="">域名实名认证问题</a>
+            <a href="">域名已被注册</a>
+            <a href="">出现域名争议怎么办</a>
+            <a href="">域名注册成功能退款吗</a>
+            <a href="">域名实名认证问题</a>
+            <a href="">域名转入</a>
+            <a href="">域名已被注册域名已被注</a>
+        </div>
+        <div class="help-info">
+            <p class="nav-info">帮助中心 > 产品文档 > <span class="grey">开放式负载均衡</span></p>
+            <h4>开放式负载均衡</h4>
+            <p>域名在因特网上用来代替IP地址，因为IP地址没有实际含义，人们不容易记住，所以用有含义的英文字母来代替。在网络上，专门有DNS（域名服务器）来进行域名与IP的相互转换，人们输入域名，在DNS上转换为  IP才能找到相应的服务器，打开相应的网页。要想在网上建立服务器发布信息，则必须首先注册自己的域名，只有有了自己的域名才能让别人访问到自己。所以，域名注册是在互联网上建立任何服务的基础。同时，由于域名的唯一性，尽早注册是十分必要的。</p>
+            <h4>开放式负载均衡</h4>
+            <p>域名在因特网上用来代替IP地址，因为IP地址没有实际含义，人们不容易记住，所以用有含义的英文字母来代替。在网络上，专门有DNS（域名服务器）来进行域名与IP的相互转换，人们输入域名，在DNS上转换为  IP才能找到相应的服务器，打开相应的网页。要想在网上建立服务器发布信息，则必须首先注册自己的域名，只有有了自己的域名才能让别人访问到自己。所以，域名注册是在互联网上建立任何服务的基础。同时，由于域名的唯一性，尽早注册是十分必要的。</p>
+            <img src="images/infoCH-help_04.jpg" width="660">
+            <h4>一级标题</h4>
+            <h5>二级标题</h5>
+            <h6>三级标题</h6>
+        </div>
+    </div>
+
+    <div class="box login-con clr">
+        <div class="title-info">
+            <h2>没有找到答案 ?</h2>
+            <ul class="select-list clr">
+                <li>
+                    <i><img src="images/icon_phone.png" /></i>
+                    电话 <br />(+86) 010-88888888
+                </li>
+                <li>
+                    <i><img src="images/icon_mail.png" /></i>
+                    邮箱 <br />infoch-us666@china.com
+                </li>
+                <li>
+                    <i><img src="images/icon_wz.png" /></i>
+                    地址 <br />北京市朝阳区酒仙桥 xxxxxx
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!--footer-->
+<!--#include file="foot.html"-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/page/help.js"></script>
+</body>
+</html>

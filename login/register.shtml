@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>infoCH 官网</title>
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/page/base.css">
+    <link rel="stylesheet" href="../css/page/public.css">
+    <link rel="stylesheet" href="../css/page/login.css">
+</head>
+<body>
+
+<section class="infoCH-box login-page min-width">
+
+    <div class="bg-wrapper">
+        <div class="animation-body">
+
+        </div>
+    </div>
+
+    <div class="login-body">
+        <img src="../images/infoCH_login_01.png" >
+        <div class="login-form">
+            <div class="infoCH-code">
+                <h4>微信关注 infoCH</h4>
+                <img src="../images/infoCH_code.png" >
+            </div>
+            <div class="line"></div>
+
+            <!--注册-->
+            <div id="reg" style="display: block;">
+                <h3>新用户注册</h3>
+                <dl class="form-list clr">
+                    <dt>邮箱：</dt>
+                    <dd>
+                        <div class="input-style">
+                            <input type="text" placeholder="请输入邮箱账号" />
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="form-list clr">
+                    <dt>密码：</dt>
+                    <dd>
+                        <div class="input-style">
+                            <input type="password" placeholder="请输入密码" />
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="form-list clr">
+                    <dt>密码确认：</dt>
+                    <dd>
+                        <div class="input-style">
+                            <input type="password" placeholder="请再次输入密码" />
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="form-list clr">
+                    <dt>校验码：</dt>
+                    <dd>
+                        <div class="input-style">
+                            <span class="block-box" style=" border-left: 1px solid #ddd;"><img src="../images/msg.png" width="100%" ></span>
+                            <p><input type="password" placeholder="请证明你不是机器人" /></p>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="form-list clr">
+                    <dt>手机号：</dt>
+                    <dd>
+                        <div class="input-style">
+                            <span class="block-box" id="js-get-code">发送验证码</span>
+                            <p><input type="text" maxlength="11" placeholder="请输入手机号" /></p>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="form-list clr">
+                    <dt>验证码：</dt>
+                    <dd>
+                        <div class="input-style">
+                            <input type="text" maxlength="6" placeholder="请输入手机验证码" />
+                        </div>
+                    </dd>
+                </dl>
+                <a href="javascript:;" class="submit-btn">注册</a>
+            </div>
+        </div>
+        <p style=" color: #65646a; text-align: center; margin-top: 0.3rem;">@北京云枢网络科技有限公司 京备A-123456667</p>
+    </div>
+</section>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/public.js"></script>
+<script src="../js/page/register.js"></script>
+</body>
+</html>

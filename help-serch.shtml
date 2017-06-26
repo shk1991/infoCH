@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>infoCH 官网</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/page/base.css">
+    <link rel="stylesheet" href="css/page/public.css">
+    <link rel="stylesheet" href="css/page/help.css">
+</head>
+<body>
+
+<!-- header -->
+<!--#include file="head.html"-->
+
+<section class="min-width help">
+    <div class="infoCH-layout">
+        <div class="bg-wrapper">
+            <div class="animation-body">
+                <img src="images/infoCH-help_01.png" width="100%">
+            </div>
+        </div>
+        <div class="serch-box">
+            <div class="input-style">
+                <span class="serch-btn" id="serch-btn"></span>
+                <p class="clr"><input type="text" placeholder="输入想要答案的关键词" /></p>
+            </div>
+            <dl class="hot-serch">
+                <dt>热门搜索词：</dt>
+                <dd>
+                    <a href="">远程连接服务器</a>
+                    <a href="">挂载数据盘</a>
+                    <a href="">域名解析</a>
+                    <a href="">域名实名认证</a>
+                    <a href="">账号实名认证</a>
+                    <a href="">忘记密码</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="help-con clr">
+       <div class="help-menu">
+           <ul class="help-menu-list">
+               <li class="serch-all active">
+                   <a href="javascript:;">全部(200)</a>
+               </li>
+               <li class="wendang">
+                   <a href="javascript:;">产品文档(100)</a>
+               </li>
+               <li class="question1">
+                   <a href="javascript:;">常见问题(100)</a>
+               </li>
+           </ul>
+       </div>
+        <div class="help-info">
+            <p class="nav-info"><span class="grey">搜到“远程连接服务器”相关的结果，共 <span class="blank">289</span> 条</span></p>
+            <div class="help-serch-list">
+                <h6>ECS Winodws <span class="blue">远程连接服务器</span>映射本地电脑磁盘</h6>
+                <p>问题现象 ECS Winodws 远程连接服务器如何映射本地电脑磁盘 解决方案 打开电脑左下方 开始-所有程序-附件-远程桌面连接 连接服务器时勾选本地磁盘映射，如下截图所示：然后输入 服务器IP 账号密码登陆到服务器后打开...</p>
+                <p class="blue">云服务器 ECS>Windows操作运维问题>远程桌面>服务配置</p>
+            </div>
+            <div class="help-serch-list">
+                <h6>ECS Winodws <span class="blue">远程连接服务器</span>映射本地电脑磁盘</h6>
+                <p>问题现象 ECS Winodws 远程连接服务器如何映射本地电脑磁盘 解决方案 打开电脑左下方 开始-所有程序-附件-远程桌面连接 连接服务器时勾选本地磁盘映射，如下截图所示：然后输入 服务器IP 账号密码登陆到服务器后打开...</p>
+                <p class="blue">云服务器 ECS>Windows操作运维问题>远程桌面>服务配置</p>
+            </div>
+            <div class="help-serch-list">
+                <h6>ECS Winodws <span class="blue">远程连接服务器</span>映射本地电脑磁盘</h6>
+                <p>问题现象 ECS Winodws 远程连接服务器如何映射本地电脑磁盘 解决方案 打开电脑左下方 开始-所有程序-附件-远程桌面连接 连接服务器时勾选本地磁盘映射，如下截图所示：然后输入 服务器IP 账号密码登陆到服务器后打开...</p>
+                <p class="blue">云服务器 ECS>Windows操作运维问题>远程桌面>服务配置</p>
+            </div>
+            <div class="help-serch-list">
+                <h6>ECS Winodws <span class="blue">远程连接服务器</span>映射本地电脑磁盘</h6>
+                <p>问题现象 ECS Winodws 远程连接服务器如何映射本地电脑磁盘 解决方案 打开电脑左下方 开始-所有程序-附件-远程桌面连接 连接服务器时勾选本地磁盘映射，如下截图所示：然后输入 服务器IP 账号密码登陆到服务器后打开...</p>
+                <p class="blue">云服务器 ECS>Windows操作运维问题>远程桌面>服务配置</p>
+            </div>
+            <div class="help-serch-list">
+                <h6>ECS Winodws <span class="blue">远程连接服务器</span>映射本地电脑磁盘</h6>
+                <p>问题现象 ECS Winodws 远程连接服务器如何映射本地电脑磁盘 解决方案 打开电脑左下方 开始-所有程序-附件-远程桌面连接 连接服务器时勾选本地磁盘映射，如下截图所示：然后输入 服务器IP 账号密码登陆到服务器后打开...</p>
+                <p class="blue">云服务器 ECS>Windows操作运维问题>远程桌面>服务配置</p>
+            </div>
+            <div class="help-serch-list">
+                <h6>ECS Winodws <span class="blue">远程连接服务器</span>映射本地电脑磁盘</h6>
+                <p>问题现象 ECS Winodws 远程连接服务器如何映射本地电脑磁盘 解决方案 打开电脑左下方 开始-所有程序-附件-远程桌面连接 连接服务器时勾选本地磁盘映射，如下截图所示：然后输入 服务器IP 账号密码登陆到服务器后打开...</p>
+                <p class="blue">云服务器 ECS>Windows操作运维问题>远程桌面>服务配置</p>
+            </div>
+            <div class="help-serch-list">
+                <h6>ECS Winodws <span class="blue">远程连接服务器</span>映射本地电脑磁盘</h6>
+                <p>问题现象 ECS Winodws 远程连接服务器如何映射本地电脑磁盘 解决方案 打开电脑左下方 开始-所有程序-附件-远程桌面连接 连接服务器时勾选本地磁盘映射，如下截图所示：然后输入 服务器IP 账号密码登陆到服务器后打开...</p>
+                <p class="blue">云服务器 ECS>Windows操作运维问题>远程桌面>服务配置</p>
+            </div>
+            <div class="help-serch-list">
+                <h6>ECS Winodws <span class="blue">远程连接服务器</span>映射本地电脑磁盘</h6>
+                <p>问题现象 ECS Winodws 远程连接服务器如何映射本地电脑磁盘 解决方案 打开电脑左下方 开始-所有程序-附件-远程桌面连接 连接服务器时勾选本地磁盘映射，如下截图所示：然后输入 服务器IP 账号密码登陆到服务器后打开...</p>
+                <p class="blue">云服务器 ECS>Windows操作运维问题>远程桌面>服务配置</p>
+            </div>
+            <div class="help-serch-list">
+                <h6>ECS Winodws <span class="blue">远程连接服务器</span>映射本地电脑磁盘</h6>
+                <p>问题现象 ECS Winodws 远程连接服务器如何映射本地电脑磁盘 解决方案 打开电脑左下方 开始-所有程序-附件-远程桌面连接 连接服务器时勾选本地磁盘映射，如下截图所示：然后输入 服务器IP 账号密码登陆到服务器后打开...</p>
+                <p class="blue">云服务器 ECS>Windows操作运维问题>远程桌面>服务配置</p>
+            </div>
+            <div class="help-serch-list">
+                <h6>ECS Winodws <span class="blue">远程连接服务器</span>映射本地电脑磁盘</h6>
+                <p>问题现象 ECS Winodws 远程连接服务器如何映射本地电脑磁盘 解决方案 打开电脑左下方 开始-所有程序-附件-远程桌面连接 连接服务器时勾选本地磁盘映射，如下截图所示：然后输入 服务器IP 账号密码登陆到服务器后打开...</p>
+                <p class="blue">云服务器 ECS>Windows操作运维问题>远程桌面>服务配置</p>
+            </div>
+            <div class="page-info">
+                <a href="" class="cur">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a href="">5</a>
+                <span>...</span>
+                <a href="">下一页</a>
+                <span>共xx页</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="box login-con clr">
+        <div class="title-info">
+            <h2>没有找到答案 ?</h2>
+            <ul class="select-list clr">
+                <li>
+                    <i><img src="images/icon_phone.png" /></i>
+                    电话 <br />(+86) 010-88888888
+                </li>
+                <li>
+                    <i><img src="images/icon_mail.png" /></i>
+                    邮箱 <br />infoch-us666@china.com
+                </li>
+                <li>
+                    <i><img src="images/icon_wz.png" /></i>
+                    地址 <br />北京市朝阳区酒仙桥 xxxxxx
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!--footer-->
+<!--#include file="foot.html"-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/page/help.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+
+.product-epds .box1{ background-color: #fff; padding-bottom: 35px;}
+.product-epds .box1 .line{
+    width: 100%;
+    height: 1px;
+    background-color: #408bf1;
+    position: absolute;
+    top: 140px;
+    z-index: 0;
+}
+.product-epds .box1 .product-show{
+    position: relative;
+    z-index: 1;
+    top:0;
+    /*width: 51.15%;*/
+    width: 732px;
+    margin: 40px auto 0;
+}
+.product-epds .box1 .product-show-text{
+    position: absolute;
+    top: 74px;
+    left: 0;
+    right: 0;
+    padding: 0 14px;
+}
+.product-epds .box1 .product-show-text li{ width: 134px; height: 134px; float: left; text-align: center; color: #408bf1;  font-size: .18rem;}
+.product-epds .box1 .product-show-text li:nth-child(2){
+    margin-left: 150px;
+    color: #fff;
+    font-size: .22rem;
+}
+.product-epds .box1 .product-show-text li:nth-child(2) strong{ display: block; color: #9fbdf6; margin-top: -20px;font-size: .2rem; font-weight: bold;}
+.product-epds .box1 .product-show-text li:last-child{ float: right;}
+
+.product-epds .box1 .product-show-p{ margin: 10px -15px 0; }
+.product-epds .box1 .product-show-p p{ width: 192px; text-align: center;color: #408bf1; float: left; font-size: .18rem;line-height: 1.8;}
+.product-epds .box1 .product-show-p p:not(:first-child){ margin-left: 54px;}
+.product-epds .box1 .product-show-p p:nth-child(2){ width: 270px;}
+
+.product-epds .box2 .product-choose-show{
+    width: 59.05%;
+    margin: 0 auto;
+    padding: 45px 0 50px;
+}
+.product-epds .box2 .product-choose-show li{
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.1);
+    padding: 0 0 30px;
+    margin-right: 15px;
+}
+.product-epds .box2 .product-choose-show li > i{
+    width: 70px;
+    height: 70px;
+    background: url(../../images/icon_bg.png) no-repeat;
+    background-size: 1078%;
+    margin: 0 auto;
+    margin-top: 28px;
+    display: block;
+}
+.product-epds .box2 .product-choose-show li > i:hover{
+    -webkit-animation: icon 1s ease-out forwards;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+/*.animation-icon {
+    -webkit-animation: icon 2s ease-out forwards;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform-origin:bottom;
+}
+@-webkit-keyframes icon {
+    0% {
+        -webkit-transform: translate(0px, 0px);
+    }
+    25% {
+        -webkit-transform: translate(0px, -15px);
+    }
+    50% {
+        -webkit-transform: translate(0px, 0px);
+    }
+    75% {
+        -webkit-transform: translate(0px, -10px);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}*/
+.product-epds .box2 .product-choose-show li .product-info-ft{ margin: 10px 0;}
+.product-epds .box2 .product-choose-show li:nth-child(1) i{
+    background-position:-17px 0;
+}
+.product-epds .box2 .product-choose-show li:nth-child(2) i{
+    background-position:-271px 0;
+}
+.product-epds .box2 .product-choose-show li:nth-child(3) i{
+    background-position:-358px 0;
+}
+
+.product-epds .box2 .product-choose-show li p{ color:#969a9e; }
+.product-epds .box2 .product-choose-show li:last-child{
+    margin-right:0;
+}
+.product-epds .box2{
+    padding-top: 60px;
+    background:#f4f5f7 url("../../images/infoCH-EPDS_05.jpg") no-repeat;
+    background-size: 100% auto;
+}
+.product-epds .box2 .title-info h2{
+    color: #fff;
+}
+.product-epds .box2 .title-info p{
+    color: #969a9e;
+}
+
+.product-epds .box3{ padding:0; background: #fff;}
+.product-epds .box3  .title-info{
+    text-align: left;
+    position: absolute;
+    left: 55%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.product-epds .box3  .title-info ul{ margin-top: 20px; line-height: 2;}
+.product-epds .box3  .title-info ul li{  margin-bottom: 10px; }
+.product-epds .box3  .title-info ul li::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    background: url("../../images/icon_bg_03.png") no-repeat 0 0;
+    background-size: 100% auto;
+    margin-right: 10px;
+}
+
+
+.product-epds .box4{ padding-bottom: 45px;}
+.product-epds .box4 .product-show04{
+    width: 59.05%;
+    margin: 45px auto 0;
+}
+.product-epds .box4 .product-show04 li{ text-align: center; padding: 0 10px; }
+.product-epds .box4 .product-show04 li h3{ margin: 10px 0;}
+.product-epds .box4 .product-show04 i{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+.product-epds .box4 .product-show04 a{
+    display: block;
+    margin-top: 10px;
+    color: #408bf1;
+    text-align: center;
+}
+
+/* itm */
+.product-itm .box1 .product-show{
+    width: 736px;
+}
+.product-itm .box1 .product-show p{ color: #408bf1; text-align: center; margin-top: 10px; font-size: .26rem;}
+.product-itm .box1 .product-show-text-itm{ padding: 0 0 0 20px;}
+.product-itm .box1 .product-show-text-itm li{
+    color: #fff;
+    font-size: .22rem;
+    width: 155px;
+    height: 155px;
+    margin: 0 9px;
+    float: left;
+    text-align: center;
+}
+.product-itm .box1 .product-show-text-itm li:nth-child(3){ margin: 0 13px;}
+.product-itm .box1 .product-show-text-itm{
+    position: absolute;
+    top: 96px;
+}
+
+.product-itm .box2{
+    padding-top: 60px;
+    background: #f4f5f7 url(../../images/infoCH-ITM_02.jpg) no-repeat;
+    background-size: 100% auto;
+}
+
+/*.product-itm .box4 .product-show04 li{ padding: 0 ;}
+.product-itm .box4 .product-show04 li h3,.product-itm .box4 .product-show04 li p,.product-itm .box4 .product-show04 li a{ text-align: left; padding: 0;}
+.product-itm .box4 .product-show04 li p{ line-height: 2;}*/
+
+/*openLB */
+.product-openLB .box1 .product-show-text-itm li{ font-size: .2rem; margin: 0 12px;}
+.product-openLB .box1 .product-show-text-itm{ top:130px; padding: 0 0 0 13px;}
+.product-openLB .box1 .product-show-text-itm li:nth-child(3){ margin: 0 7px;}
+.product-openLB .box2{
+    padding-top: 60px;
+    background: #f4f5f7 url(../../images/infoCH-OpenLB_07.jpg) no-repeat;
+    background-size: 100% auto;
+}
+
+.product-openLB .box2 .product-choose-show li:nth-child(4) i{
+    background-position:-610px 0;
+}
+.product-openLB .box4 .product-show04 li h3, .product-openLB .box4 .product-show04 li p, .product-openLB .box4 .product-show04 li a{ text-align: center; padding: 0 8px;}
+
+.product-epds .bg-wrapper{
+    padding-top:45%;
+}
+.product-epds .animation_img{
+    width: 40%;
+    margin-left: -20%;
+    top: 29%;
+}
+
+.product-openLB .animation_img{
+    width: 55%;
+    margin-left: -27.4%;
+}

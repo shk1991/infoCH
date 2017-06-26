@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>infoCH 官网</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/page/base.css">
+    <link rel="stylesheet" href="css/page/public.css">
+    <link rel="stylesheet" href="css/page/product.css">
+</head>
+<body>
+
+<!-- header -->
+<!--#include file="head.html"-->
+
+<section class="infoCH-box min-width product-epds">
+    <div class="infoCH-layout">
+        <div class="bg-wrapper">
+            <div class="animation-body">
+                <img src="images/infoCH-EPDS_02.png" width="100%">
+            </div>
+        </div>
+        <img src="images/product-epds_title.png" class="animation_img move-title">
+        <div class="link-target">
+            <a href="javascript:;" class="move-title">敬请期待</a>
+        </div>
+    </div>
+
+    <div class="box box1">
+        <div class="title-info">
+            <h2>专属独享</h2>
+            <p>EPDS为企业提供独享的DNS服务能力支持，快速部署，用户可以拥有完全自主的DNS服务</p>
+        </div>
+        <div class="con-info">
+            <div class="line"></div>
+            <div class="product-show">
+                <img src="images/infoCH-EPDS_03.png" style=" width: 100%" >
+                <ul class="product-show-text">
+                    <li class="mid-center">智能解析</li>
+                    <li class="mid-center"><p><strong>infoCH</strong>独享DNS服务</p></li>
+                    <li class="mid-center">快速部署</li>
+                </ul>
+                <div class="product-show-p clr">
+                    <p>支持全球多线路运营<br/>通过轮询机制<br/>达到解析的最佳状态</p>
+                    <p>支持全球多线路运营商智能解析，<br/>通过轮询机制实时自动优化，<br/>达到解析的最佳状态</p>
+                    <p>多线路运营商智<br/>通过轮询机制实时自动优化，<br/>达到解析的最佳状态</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box2">
+        <div class="title-info">
+            <h2>您为什么选择我们？</h2>
+            <p>Global Traffic Management 统一流量管理平台。</p>
+            <p>GTM是云枢云平台的网络核心，通过对网络流量的智能管控，让业务更快速、更可靠、更安全、更易用。</p>
+        </div>
+        <div class="con-info">
+            <img src="images/infoCH-EPDS_04.png" style=" width: 51.1%; margin:30px auto 0;" >
+            <ul class="product-choose-show flex">
+                <li class="flex-child">
+                    <i></i>
+                    <h3 class="product-info-ft">超大查询量</h3>
+                    <p class="product-info-text">海量数据处理能力，<br/>大规模流量处理能力，<br/>多级别流量管理策略，<br/>多节点灾备</p>
+                </li>
+                <li class="flex-child">
+                    <i></i>
+                    <h3 class="product-info-ft">智能解析</h3>
+                    <p class="product-info-text">支持全球多线路运营商智能解析，<br/>通过轮询机制实时自动优化，<br/>达到解析的最佳状态</p>
+                </li>
+                <li class="flex-child">
+                    <i></i>
+                    <h3 class="product-info-ft">弹性计费</h3>
+                    <p class="product-info-text">用户可轻松在控制台实现域名解析,<br/>快速配置稳定可靠领先的DNS集群技术，<br/>独享的DNS服务，<br/>降低域名风险</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="box box3 clr">
+        <img src="images/infoCH-EPDS_06.png" style=" width:50%; float: left;" >
+        <div class="title-info mid">
+            <div>
+                <h2>如果您拥有这样的业务？</h2>
+                <ul>
+                    <li>需要自主DNS能力的业务</li>
+                    <li>有瞬时高查询量需求的业务</li>
+                    <li>DNS经常被攻击的业务</li>
+                    <li>需要高稳定性DNS的业务</li>
+                    <li>需要多线路智能解析的业务</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box4 clr">
+        <div class="title-info">
+            <h2>ITM提供更人性化的服务</h2>
+        </div>
+        <div class="con-info">
+            <ul class="product-show04 flex">
+                <li class="flex-child">
+                    <i><img src="images/icon_bg_06.png" width="100%" /></i>
+                    <h3 class="product-info-ft">快速配置</h3>
+                    <p class="product-info-text">多组第三方平台实例数据一次性导入，快速简历第三方实例管理库，同步网络流量分配策略</p>
+                </li>
+                <li class="flex-child">
+                    <i><img src="images/icon_bg_07.png" width="100%" /></i>
+                    <h3 class="product-info-ft">实时数据报表</h3>
+                    <p class="product-info-text">运行监控数据可视化，更了解子的流量特性，方便根据流量对业务进行优化，及时对云服务策略优化配置</p>
+                </li>
+                <li class="flex-child">
+                    <i><img src="images/icon_bg_08.png" width="100%" /></i>
+                    <h3 class="product-info-ft">多纬度计算</h3>
+                    <p class="product-info-text">多重纬度计算，最大程度的让企业节省计算成本，优化云资产</p>
+                </li>
+                <li class="flex-child">
+                    <i><img src="images/icon_bg_09.png" width="100%" /></i>
+                    <h3 class="product-info-ft">报警管理</h3>
+                    <p class="product-info-text">自定义报警策略，多平台通知，及时知晓业务运行状况</p>
+                </li>
+            </ul>
+            <!-- <div class="product-show04 flex" style="margin-top: 0;">
+                <a href=""  class="flex-child">查看详情</a>
+                <a href=""  class="flex-child">查看详情</a>
+                <a href=""  class="flex-child">查看详情</a>
+                <a href=""  class="flex-child">查看详情</a>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="box login-con clr">
+        <div class="title-info">
+            <h2>现在开始infoCH之旅</h2>
+        </div>
+        <div class="con-info">
+            <div class="login-box">
+                <a href="" class="login-submit">登录</a>
+                <div class="login-input">
+                    <p class="input-email"><input  type="email" placeholder="输入邮箱地址"></p>
+                    <p class="input-password"><input type="password" placeholder="输入密码"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--footer-->
+<!--#include file="foot.html"-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/public.js"></script>
+</body>
+</html>

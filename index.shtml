@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>infoCH 官网</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/page/base.css">
+    <link rel="stylesheet" href="css/page/public.css">
+    <link rel="stylesheet" href="css/page/flipper.css">
+    <link rel="stylesheet" href="css/page/index.css">
+</head>
+<body>
+
+<!-- header -->
+<!--#include file="head.html"-->
+
+<header class="min-width max-width">
+    <div class="munu-box">
+        <p class="icon-logo"><a href="index.shtml" style="display: block; width: 100%; height: 100%;"></a></p>
+        <ul class="infoCH-nav-item clearfix">
+            <li class="infoCH-nav-cp">
+                <a href="index.shtml">
+                    <span id="product-name">产品</span>
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                <div class="menu-child infoCH-nav-child">
+                    <a href="product-openLB.shtml" >开放式负载均衡<br/>Open Load Balance</a>
+                    <a href="product-itm.shtml" >智能流量管理系统<br/>Intelligent Traffic Manager</a>
+                    <a href="product-epds.shtml" >专属私有域名服务<br/>Exclusive Private Domain Service</a>
+                </div>
+            </li>
+            <li><a href="calculate.shtml">价格计算器</a></li>
+            <!-- <li class="infoCH-nav-help">
+                <a href="help.shtml">
+                    帮助中心
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                <div class="menu-child">
+                    <a href="" >产品文档</a>
+                    <a href="" >用户指南</a>
+                    <a href="" >接口文档</a>
+                </div>
+            </li> -->
+            <li><a href="about-us.shtml">关于</a></li>
+            <li><a href="">控制台</a></li>
+            <li class="infoCH-nav-user clearfix">                
+                <!-- <p class="infoCH-nav-user-img">
+                    <img src="images/infoCH_03.png" width="100%">
+                </p> -->
+                <p class="infoCH-nav-user-info">
+                    我是注册用户用 UFO
+                </p>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<section class="infoCH-box min-width index">
+    <div class="infoCH-layout">
+        <div class="bg-wrapper">
+            <div class="animation-body">
+                <img src="images/infoCH_01.jpg" width="100%">
+            </div>
+        </div>
+        <img src="images/infoCH-HOME_03.png" class="animation_img move-title">
+    </div>
+    <div class="infoCH-cp-info">
+        <div class="infoCH-cp-info-box">
+            <div class="infoCH-cp-info-top">
+                <h2>致力于提供更精良的云计算产品方案</h2>
+                <p>Global Traffic Management 统一流量管理平台。GTM是云枢云平台的网络核心，通过对网络流量的智能管控，让业务更快速、更可靠、更安全、更易用。</p>
+            </div>
+            <div class="infoCH-cp-info-bottom">
+                <div>
+                    <p class="infoCH-cp-info-bottom-icon1"></p>
+                    <p class="infoCH-cp-info-bottom-ft">开放式负载均衡</p>
+                    <p class="infoCH-cp-info-bottom-text">
+                        横跨所有云服务厂商和数据中心的开放式负载均衡服务，无关地理位置，对服务端和客户端完全透明
+                    </p>
+                    <p class="infoCH-cp-info-bottom-btn"><a href="product-openLB.shtml">了解产品</a></p>
+                </div>
+                <div>
+                    <p class="infoCH-cp-info-bottom-icon2"></p>
+                    <p class="infoCH-cp-info-bottom-ft">智能流量管理系统</p>
+                    <p class="infoCH-cp-info-bottom-text">
+                        通过业内顶尖的异常流量处理机制，辅以高带宽和高性能的架构支持，为企业提供极致性能的流量管理和控制服务。
+                    </p>
+                    <p class="infoCH-cp-info-bottom-btn">
+                        <a href="product-itm.shtml">了解产品</a>
+                    </p>
+                </div>
+                <div>
+                    <p class="infoCH-cp-info-bottom-icon3"></p>
+                    <p class="infoCH-cp-info-bottom-ft">专属私有域名服务</p>
+                    <p class="infoCH-cp-info-bottom-text">
+                        为企业提供快速部署DNS的能力，让企业拥有独享的私有DNS服务，同时满足超大查询量，让业务更稳定。
+                    </p>
+                    <p class="infoCH-cp-info-bottom-btn">
+                        <a href="product-epds.shtml">了解产品</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="infoCH-cp-ys">
+        <div class="infoCH-cp-ys-text">
+            <h2>我们的优势</h2>
+            <p>多年云计算行业技术积累，懂业务，更懂流量</p>
+        </div>
+        <div class="infoCH-cp-ys-info">
+            <p class="infoCH-cp-ys-info-bg">
+                <img src="images/infoCH_05.png" width="100%">
+            </p>
+            <div class="infoCH-cp-ys-info-one">
+                <h2 class="infoCH-cp-ys-info-h2">海量数据处理能力</h2>
+                <p class="infoCH-cp-ys-info-p">多年流量处理经验，一流技术架构，多级联动的海量数据处理策略</p>
+            </div>
+            <div class="infoCH-cp-ys-info-two">
+                <h2 class="infoCH-cp-ys-info-h2">多纬度弹性计费</h2>
+                <p class="infoCH-cp-ys-info-p">按时按量，多重策略，多重纬度的弹性计费方式， 让业务扩容更方便，帮企业降低计算成本</p>
+            </div>
+            <div class="infoCH-cp-ys-info-three">
+                <h2 class="infoCH-cp-ys-info-h2">开放透明</h2>
+                <p class="infoCH-cp-ys-info-p">支持完全透明网络数据传输，避免业务和数据干扰</p>
+            </div>
+            <div class="infoCH-cp-ys-info-four">
+                <h2 class="infoCH-cp-ys-info-h2">地理位置无关</h2>
+                <p class="infoCH-cp-ys-info-p">全局管控，兼容所有厂商和数据中心设备</p>
+            </div>
+            <div class="infoCH-cp-ys-info-five">
+                <h2 class="infoCH-cp-ys-info-h2">专属独享</h2>
+                <p class="infoCH-cp-ys-info-p">从根源为服务，让企业拥有完全独立自主的云计算处理能力</p>
+            </div>
+        </div>
+    </div>
+    <div class="infoCH-cp-map">
+        <div class="infoCH-cp-map-text">
+            <h2>连接一切</h2>
+            <p>连接数据，连接网络，连接信息，连接用户，连接客户，连接世界</p>
+        </div>
+        <div class="infoCH-cp-map-info">
+            <div class="infoCH-cp-map-bg">
+                <img src="images/infoCH_06.png" width="100%">
+                <p class="infoCH-cp-map-bg-01">
+                    <img src="images/infoCH_10.png" width="100%">
+                </p>
+                <p class="infoCH-cp-map-bg-02">
+                    <img src="images/infoCH_11.png" width="100%">
+                </p>
+                <p class="infoCH-cp-map-bg-03">
+                    <img src="images/infoCH_12.png" width="100%">
+                </p>
+                <p class="infoCH-cp-map-bg-04">
+                    <img src="images/infoCH_13.png" width="100%">
+                </p>
+                <p class="infoCH-cp-map-info-01">
+                    <img src="images/infoCH_07.png" width="100%">
+                </p>
+                <p class="infoCH-cp-map-info-02">
+                    <img src="images/infoCH_08.png" width="100%">
+                </p>
+                <p class="infoCH-cp-map-info-03">
+                    <img src="images/infoCH_09.png" width="100%">
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="infoCH-cp-plan">
+        <div class="infoCH-cp-plan-header">
+            <h2>我们提供最精尖的行业解决方案</h2>
+            <p>覆盖游戏、社交、通信、金融、电商、互联网应用等行业</p>
+        </div>
+        <ul class="infoCH-cp-plan-info">
+            <li class="flip-container " ontouchstart="this.classList.toggle('hover');">
+                <a href="javascript:;" class="flipper">
+                    <div class="front">
+                        <img src="images/infoCH_14.png" width="100%">
+                        <p>
+                            <span>游戏</span>
+                            <span>Game</span>
+                        </p>
+                    </div>
+                    <div class="back">
+                        <img src="images/infoCH_14.png" width="100%">
+                        <div class="mid-center">
+                            <div>
+                                <h6>游戏</h6>
+                                <h6>Game</h6>
+                                <span>为游戏开发者提供高质量网络服务，海量带宽攻击处理，优质DNS服务</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="flip-container " ontouchstart="this.classList.toggle('hover');">
+                <a href="javascript:;" class="flipper">
+                    <div class="front">
+                        <img src="images/infoCH_15.png" width="100%">
+                        <p>
+                            <span>社交</span>
+                            <span>Sociality</span>
+                        </p>
+                    </div>
+                    <div class="back">
+                        <img src="images/infoCH_15.png" width="100%">
+                        <div class="mid-center">
+                            <div>
+                                <h6>社交</h6>
+                                <h6>Sociality</h6>
+                                <span>支撑业务随时扩容需要，满足业务网络稳定</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="flip-container " ontouchstart="this.classList.toggle('hover');">
+                <a href="javascript:;" class="flipper">
+                    <div class="front">
+                        <img src="images/infoCH_16.png" width="100%">
+                        <p>
+                            <span>金融</span>
+                            <span>Finance</span>
+                        </p>
+                    </div>
+                    <div class="back">
+                        <img src="images/infoCH_16.png" width="100%">
+                        <div class="mid-center">
+                            <div>
+                                <h6>金融</h6>
+                                <h6>Finance</h6>
+                                <span>高保障数据安全和业务稳定</span>
+                            </div>  
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="flip-container " ontouchstart="this.classList.toggle('hover');">
+                <a href="javascript:;" class="flipper">
+                    <div class="front">
+                        <img src="images/infoCH_17.png" width="100%">
+                        <p>
+                            <span>通信</span>
+                            <span>Communication</span>
+                        </p>
+                    </div>
+                    <div class="back">
+                        <img src="images/infoCH_17.png" width="100%">
+                        <div class="mid-center">
+                            <div>
+                                <h6>通信</h6>
+                                <h6>Communication</h6>
+                                <span>为物联网业务等多终端场景提供网络解决方案</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="flip-container " ontouchstart="this.classList.toggle('hover');">
+                <a href="javascript:;" class="flipper">
+                    <div class="front">
+                        <img src="images/infoCH_18.png" width="100%">
+                        <p>
+                            <span>电商</span>
+                            <span>Electronic Business</span>
+                        </p>
+                    </div>
+                    <div class="back">
+                        <img src="images/infoCH_18.png" width="100%">
+                        <div class="mid-center">
+                            <div>
+                                <h6>电商</h6>
+                                <h6>Electronic Business</h6>
+                                <span>从容应对业务高并发，满足电商客户随时扩容方案</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="flip-container " ontouchstart="this.classList.toggle('hover');">
+                <a href="javascript:;" class="flipper">
+                    <div class="front">
+                        <img src="images/infoCH_19.png" width="100%">
+                        <p>
+                            <span>直播</span>
+                            <span>Live Stream</span>
+                        </p>
+                    </div>
+                    <div class="back">
+                        <img src="images/infoCH_19.png" width="100%">
+                        <div class="mid-center">
+                            <div>
+                                <h6>直播</h6>
+                                <h6>Live Stream</h6>
+                                <span>直播视频场景的高可用网络存储、分发</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="infoCH-cp-billing">
+        <div class="infoCH-cp-billing-header">
+            <h2>多纬度计费模式</h2>
+            <p>按时按量，多重策略，多重纬度的弹性计费方式，让业务扩容更方便，帮企业降低计算成本</p>
+        </div>
+        <div class="infoCH-cp-billing-info">
+            <div class="infoCH-cp-billing-item">
+                <div class="infoCH-cp-billing-item-top">
+                    <p>开放式负载均衡</p>
+                    <p>Open Load Balance</p>
+                </div>
+                <div class="infoCH-cp-billing-item-info">
+                    <p class="infoCH-cp-billing-item-info-bg1">
+                        <img src="images/infoCH_20.png" width="100%">
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-dec1">
+                        按时计费+按量计费
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-dec2">
+                        开放透明 | 高可用性 | 业务监控
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-dec2">
+                        多协议支持 | 运行监控 | 弹性管理
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-btn">
+                        敬请期待
+                    </p>
+                </div>
+            </div>
+            <div class="infoCH-cp-billing-item">
+                <div class="infoCH-cp-billing-item-top">
+                    <p>智能流量管理系统</p>
+                    <p>Intelligent Traffic Manager</p>
+                </div>
+                <div class="infoCH-cp-billing-item-info">
+                    <p class="infoCH-cp-billing-item-info-bg1">
+                        <img src="images/infoCH_21.png" width="100%">
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-dec1">
+                        保底计费+临时弹性计费
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-dec2">
+                        开放透明 | 高可用性 | 业务监控
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-dec2">
+                        多协议支持 | 运行监控 | 弹性管理
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-btn">
+                        <a href="calculate.shtml">预估成本</a>
+                    </p>
+                </div>
+            </div>
+            <div class="infoCH-cp-billing-item">
+                <div class="infoCH-cp-billing-item-top">
+                    <p>专属私有域名服务</p>
+                    <p>Exclusive Private Domain Service</p>
+                </div>
+                <div class="infoCH-cp-billing-item-info">
+                    <p class="infoCH-cp-billing-item-info-bg1">
+                        <img src="images/infoCH_22.png" width="100%">
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-dec1">
+                        按时计费+按量计费
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-dec2">
+                        开放透明 | 高可用性 | 业务监控
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-dec2">
+                        多协议支持 | 运行监控 | 弹性管理
+                    </p>
+                    <p class="infoCH-cp-billing-item-info-btn">
+                        敬请期待
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<!--#include file="foot.html"-->
+
+<!--<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>-->
+<script src="js/jquery.min.js"></script>
+<script src="js/public.js"></script>
+<script>
+    $(function () {
+
+        function init(cb) {
+            animationEnd(".infoCH-cp-map-bg-01", "animation", function () {
+                $(".infoCH-cp-map-bg-01").css("opacity", 1);
+                animationEnd(".infoCH-cp-map-bg-04", "animation", function () {
+                    $(".infoCH-cp-map-bg-04").css("opacity", 1);
+                    animationEnd(".infoCH-cp-map-info-02", "animationB", function () {
+                        $(".infoCH-cp-map-info-02").css("opacity", 1);
+                        animationEnd(".infoCH-cp-map-bg-03", "animation", function () {
+                            $(".infoCH-cp-map-bg-03").css("opacity", 1);
+                            animationEnd(".infoCH-cp-map-info-03", "animationB", function () {
+                                $(".infoCH-cp-map-info-03").css("opacity", 1);
+                                animationEnd(".infoCH-cp-map-bg-02", "animation", function () {
+                                    $(".infoCH-cp-map-bg-02").css("opacity", 1);
+                                    animationEnd(".infoCH-cp-map-info-01", "animationB", function () {
+                                        $(".infoCH-cp-map-info-01").css("opacity", 1);
+                                        cb && cb();
+                                    });
+                                })
+                            })
+                        })
+                    })
+                })
+            });
+        }
+
+        function animationEnd(className, animationName, cb) {
+            $(className).addClass(animationName);
+            document.querySelector(className).addEventListener("webkitAnimationEnd", function () {
+                cb && cb();
+            }, false)
+        }
+
+        var _h = $(".infoCH-cp-map").offset().top, scrollH = 0, elH = $(".infoCH-cp-map").height(), end = false;
+        window.onscroll = function () {
+            scrollH = $("body").scrollTop();
+            if (scrollH + 300 >= _h) {
+                init(function () {
+                    end = true;
+                });
+            } else if (scrollH + 500 < _h) {
+                if (end) {
+                    $(".animation").css("opacity", 0).removeClass("animation");
+                    $(".animationB").css("opacity", 0).removeClass("animationB");
+                    end = false;
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>infoCH 官网</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/page/base.css">
+    <link rel="stylesheet" href="css/page/public.css">
+    <style>
+        .blue{
+            color: #4394ff;
+        }
+        .top-img{
+            background: url("images/icon_bg_11.png") repeat-y 0 0;
+            background-size: 100% auto;
+            height: 54px;
+        }
+        .error-info{
+            overflow: hidden;
+            background: #fff;;
+            padding-bottom: 114px;;
+        }
+        .error-img{ margin: 128px auto 54px; width: 213px; display: block; }
+        .error-info > div{
+            border: 1px dashed #ddd;;
+            width: 598px;
+            margin: 0 auto;
+            padding: 35px 0;
+            text-align: center;
+        }
+        .error-info > div h3{ font-size: 28px;}
+    </style>
+</head>
+<body>
+
+<!-- header -->
+<!--#include file="head.html"-->
+
+<section class="min-width">
+
+    <div class="top-img"></div>
+
+    <div class="error-info">
+        <i class="error-img"><img src="images/404.jpg"/></i>
+        <div>
+            <h3>页面出错啦！</h3>
+            但你可以选择 <a href="index.shtml" class="blue">返回首页</a> 或执迷的 <a href="" class="blue">刷新本页面</a>
+        </div>
+    </div>
+
+</section>
+
+<!--footer-->
+<!--#include file="foot.html"-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/public.js"></script>
+</body>
+</html>
