@@ -1,2 +1,2 @@
 # infoCH
-infoCH 官网
+infoCH 官网项目 
