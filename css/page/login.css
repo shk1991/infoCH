@@ -6,6 +6,20 @@ input{ transition:border 0.2s ease-in-out;}
 input[type=text]:focus, input[type=password]:focus {
     border: 1px solid #408bf1;
 }
+.logo-title{
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    margin: 70px auto 30px;
+}
+.logo-title strong{
+    font-weight: bold;
+    font-size: 42px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -4px;
+    margin-right: 10px;
+}
 .login-page{
     position: relative;
     min-height: 600px;

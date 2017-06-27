@@ -417,6 +417,42 @@ footer {
     text-align: right;
 }
 
+.banner-title{ text-align: center; padding-top: 25px; line-height: 1;}
+.banner-title h3{
+    color: #fff;
+    font-size: 65px;
+}
+.banner-title h4{
+    color: #fff;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.banner-title p{
+    color: #a6a6ab;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.banner-title .creat-line{
+    height: 20px;
+    margin-top:18px;
+    margin-bottom: 20px;
+}
+.banner-title .creat-line span,.banner-title .creat-line i{
+    display: inline-block;
+    height:1px;
+    background-color: #83899f;
+    font-size: 0;
+}
+.banner-title .creat-line span{
+    width: 150px;
+}
+.banner-title .creat-line i{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 0 2px -2px;
+}
+
 /*返回顶部*/
 #backTop{
     width: 48px;

@@ -22,7 +22,10 @@
             <div class="animation-body">
                 <img src="images/infoCH-help_01.png" width="100%">
             </div>
-            <img src="images/help_title.png" class="animation_img">
+            <div class="animation_img banner-title">
+                <h3>帮助中心</h3>
+            </div>
+            <!--<img src="images/help_title.png" class="animation_img">-->
         </div>
 
         <div class="serch-box">

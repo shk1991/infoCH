@@ -213,7 +213,12 @@ $(function(){
 			}else{
 				value = Number(value) + 10;
 			}
+		}
+		if(dataType == "min"){
 			value = value < 20 ? 20 : value;
+		}
+		if(dataType == "max"){
+			value = value < valueObj.max.defalut ? valueObj.max.defalut : value;
 		}
 		if(dataType == "work"){
 			if($this.hasClass("up")){
@@ -297,7 +302,7 @@ $(function(){
 
 		$thisEle.find(".disabled").removeClass("disabled");
 
-		if(val == valueArray[0]){	//兼容基础带宽
+		if(val == valueArray[0] || (str == "max" && val == valueObj.max.defalut)){	//兼容基础带宽
 			$thisEle.find(".up").addClass("disabled");
 		}else if(val == valueArray[valueArray.length-1]){
 			$thisEle.find(".down").addClass("disabled");

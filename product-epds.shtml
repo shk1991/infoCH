@@ -22,7 +22,17 @@
                 <img src="images/infoCH-EPDS_02.png" width="100%">
             </div>
         </div>
-        <img src="images/product-epds_title.png" class="animation_img move-title">
+        <div class="animation_img move-title banner-title">
+            <h3>专属私有域名服务</h3>
+            <h4>Exclusive Private Domain Service</h4>
+            <div class="creat-line">
+                <span></span>
+                <i></i>
+                <span></span>
+            </div>
+            <p>让企业拥有独享的DNS服务，同时满足超大查询量，让业务更稳定</p>
+        </div>
+        <!--<img src="images/product-epds_title.png" class="animation_img move-title">-->
         <div class="link-target">
             <a href="javascript:;" class="move-title">敬请期待</a>
         </div>

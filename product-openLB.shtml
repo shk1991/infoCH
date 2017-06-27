@@ -22,7 +22,17 @@
                 <img src="images/infoCH-OpenLB_01.png" width="100%">
             </div>
         </div>
-        <img src="images/product-openLB_title.png" class="animation_img move-title">
+        <div class="animation_img move-title banner-title">
+            <h3>开放式负载均衡</h3>
+            <h4>Open Load Balance</h4>
+            <div class="creat-line">
+                <span></span>
+                <i></i>
+                <span></span>
+            </div>
+            <p>依托于Global Traffic Management - GTM，通过实时判断数据中心性能健康状况和全球互联网流量条件，做出最智能的流量决策，同时确保用户端获取最佳的网络请求</p>
+        </div>
+        <!--<img src="images/product-openLB_title.png" class="animation_img move-title">-->
         <div class="link-target">
             <a href="javascript:;" class="move-title">敬请期待</a>
         </div>

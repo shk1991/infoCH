@@ -216,3 +216,7 @@
     margin-left: -7.5%;
     top: 35%;
 }
+.banner-title{ padding-top: 10px;}
+.banner-title h3{
+    font-size: 38px;
+}

@@ -22,7 +22,17 @@
                 <img src="images/infoCH-ITM_01.png" width="100%">
             </div>
         </div>
-        <img src="images/product-itm_title.png" class="animation_img move-title">
+        <div class="animation_img move-title banner-title">
+            <h3>智能流量管理系统</h3>
+            <h4>Intelligent Traffic Manager</h4>
+            <div class="creat-line">
+                <span></span>
+                <i></i>
+                <span></span>
+            </div>
+            <p>通过业内顶尖的异常流量处理机制，辅以最高带宽和性能的支持，为企业提供极致性能的流量管理和控制服务</p>
+        </div>
+        <!--<img src="images/product-itm_title.png" class="animation_img move-title">-->
         <div class="link-target">
             <a href="" class="move-title">立即使用</a>
             <a href="" class="move-title">价格预估</a>

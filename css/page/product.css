@@ -212,3 +212,10 @@
     width: 55%;
     margin-left: -27.4%;
 }
+
+.banner-title h3{
+    font-size:50px;
+}
+.banner-title .creat-line{
+    margin: 10px auto;
+}
