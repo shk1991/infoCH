@@ -324,6 +324,37 @@ $(function(){
 		return false;
 	});
 
+	/***************************** 购买数量 *******************************/
+	$("#js-buy-number").keyup(function(){
+		changeBuyNum(this);
+	});
+	$(".choose-number").on("click",".add",function(){
+		changeBuyNum(this);
+	});
+	$(".choose-number").on("click",".subtract",function(){
+		changeBuyNum(this);
+	});
+	function changeBuyNum(t){
+		var $this = $(t);
+		if($this.hasClass("disabled")){ return false;}
+		var $input = $("#js-buy-number");
+		var $parentEle = $this.closest(".choose-number");
+		var thisVal = $.trim($input.val());
+
+		if($this.hasClass("add")){
+			thisVal++;
+		}else if($this.hasClass("subtract")){
+			thisVal--;
+		}else{
+			thisVal = thisVal.replace(/\D/g,'');
+		}
+		thisVal = thisVal <= 0 ? 1 : thisVal;
+		$input.val(thisVal);
+		$parentEle.find(".disabled").removeClass("disabled");
+		if(thisVal == 1){
+			$parentEle.find(".subtract").addClass("disabled");
+		}
+	}
 })
 
 

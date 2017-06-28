@@ -268,3 +268,38 @@
 }
 .slider-container .scale span:first-child{ display: none;}
 .slider-container .scale span:last-child{ border: none;}
+
+.choose-number{
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+}
+.choose-number span{
+    width: 35px;
+    height: 100%;
+    text-align: center;
+    line-height:inherit;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.choose-number span.add{
+    float: right;
+}
+.choose-number span.subtract{
+    float: left;
+}
+.choose-number span.disabled{
+    color: #ddd;
+    cursor: default;
+}
+.choose-number > div{
+    overflow: hidden;
+    height: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.choose-number > div input{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}

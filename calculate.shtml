@@ -251,6 +251,16 @@
                         </ul>
                     </dd>
                 </dl>
+                <dl class="select-list clr">
+                    <dt>购买数量：</dt>
+                    <dd>
+                        <div class="choose-number">
+                            <span class="subtract disabled">-</span>
+                            <span class="add">+</span>
+                            <div><input type="text" value="1" id="js-buy-number" ></div>
+                        </div>
+                    </dd>
+                </dl>
             </div>
         </div>
     </div>
